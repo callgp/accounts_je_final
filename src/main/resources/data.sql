@@ -21,4 +21,4 @@ INSERT INTO `customer` (`name`,`email`,`mobile_number`,`create_dt`)
 	VALUES ('javaexpress','javaexpresschannel@gmail.com','78010079',CURDATE());
 
 INSERT INTO `account` (`customer_id`, `account_number`, `account_type`, `branch_address`, `create_dt`)
-		 VALUES (1, 501000, 'Current', '301 Main Street, Hyderbad', CURDATE());
+		 VALUES (1, 501000, 'Current', '301 Main Street, Hydeeerbad', CURDATE());
