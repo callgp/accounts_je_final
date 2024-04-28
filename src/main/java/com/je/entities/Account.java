@@ -2,6 +2,7 @@ package com.je.entities;
 
 import java.time.LocalDate;
 
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -16,7 +17,9 @@ public class Account {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(name = "ACCOUNT_NUMBER") 
 	private Integer accountNumber;
+//	@Column(name = "CUSTOMER_ID") 
 	private int customerId;
 	private String accountType;
 	private String branchAddress;

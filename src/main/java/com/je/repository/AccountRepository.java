@@ -9,5 +9,5 @@ import com.je.entities.Account;
 
 @Repository //optional
 public interface AccountRepository extends JpaRepository<Account, Integer>{
-	Optional<Account> findByCustomerId(Integer custId);
+	Optional<Account> findById(Integer accountNumber);
 }
